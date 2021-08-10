@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { H1, H2, H3, BodyBase } from "../components/typography/Type";
+import { PrimaryBtn, PrimaryInvertedBtn, SecondaryBtn, SecondaryInvertedBtn, SuccessBtn, SuccessInvertedBtn, FailBtn, FailInvertedBtn } from "../components/ui/Button";
 
 export default function Home() {
   return (
@@ -34,6 +35,15 @@ export default function Home() {
         <h3 className="text-primary-500">themed</h3>
         <BodyBase color="text-green-500" weight="font-semibold">Paragraph style of green text and semibold</BodyBase>
         <BodyBase>Default body styles of normal and dark gray</BodyBase>
+        <PrimaryBtn>Button</PrimaryBtn>
+        <PrimaryInvertedBtn>Button</PrimaryInvertedBtn>
+        <SecondaryBtn>Button</SecondaryBtn>
+        <SecondaryInvertedBtn>Inverted</SecondaryInvertedBtn>
+        <SuccessBtn>Button</SuccessBtn>
+        <SuccessInvertedBtn>Inverted</SuccessInvertedBtn>
+        <FailBtn>Button</FailBtn>
+        <FailInvertedBtn>Inverted</FailInvertedBtn>
+
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
             href="https://nextjs.org/docs"
