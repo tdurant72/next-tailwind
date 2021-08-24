@@ -50,7 +50,6 @@ module.exports = {
       green: colors.emerald,
     },
     extend: {
-      brightness: ['hover'],
     },
   },
   variants: {
@@ -58,4 +57,3 @@ module.exports = {
   },
   plugins: [],
 }
-

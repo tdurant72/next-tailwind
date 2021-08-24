@@ -5,6 +5,10 @@ import { H1 } from "../components/typography/Type";
 export default {
     title: 'Components/Type',
     component: H1,
+    argTypes: {
+        color: { control: { type: 'text' } },
+        weight: { control: { type: 'text' } },
+    }
 };
 
 const Template = (args) => <H1 {...args} />;

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { H1, H2, H3, BodyBase } from "../components/typography/Type";
-import { PrimaryBtn, PrimaryInvertedBtn, SecondaryBtn, SecondaryInvertedBtn, SuccessBtn, SuccessInvertedBtn, FailBtn, FailInvertedBtn } from "../components/ui/Button";
-
+import Button from "../components/ui/Button";
+import { CardPlayfull } from '../components/ui/Card';
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -35,15 +35,20 @@ export default function Home() {
         <h3 className="text-primary-500">themed</h3>
         <BodyBase color="text-green-500" weight="font-semibold">Paragraph style of green text and semibold</BodyBase>
         <BodyBase>Default body styles of normal and dark gray</BodyBase>
-        <PrimaryBtn>Button</PrimaryBtn>
-        <PrimaryInvertedBtn>Button</PrimaryInvertedBtn>
-        <SecondaryBtn>Button</SecondaryBtn>
-        <SecondaryInvertedBtn>Inverted</SecondaryInvertedBtn>
-        <SuccessBtn>Button</SuccessBtn>
-        <SuccessInvertedBtn>Inverted</SuccessInvertedBtn>
-        <FailBtn>Button</FailBtn>
-        <FailInvertedBtn>Inverted</FailInvertedBtn>
 
+        <Button bg="bg-primary-500" bgh="bg-primary-700" txt="text-primary-50" >Any Button</Button>
+        <Button bg="bg-gray-50" txt="text-primary-500" bd="border-primary-500" >Inverted</Button>
+        <CardPlayfull
+          cardBg="bg-neutral-50"
+          headerColor="text-primary-800"
+          cardTxtColor="text-neutral-800"
+          cardLink="https://github.com/"
+          imgSrc="https://cdn.vuetifyjs.com/images/carousel/sky.jpg"
+          imgAlt="sky image"
+          cardHeader="Design Tools"
+          cardTxt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!"
+          cardLinkTxt="Jane Doe"
+        />
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
             href="https://nextjs.org/docs"
