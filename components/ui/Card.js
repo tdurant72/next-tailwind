@@ -66,7 +66,6 @@ CardPlayfull.defaultProps = {
     cardLinkColor: "text-secondary-500",
     cardBg: 'bg-white',
     imgBd: 'border-primary-500',
-    children: 'Button',
     onClick: undefined,
 };
 CardHorizontalImage.defaultProps = {
@@ -83,7 +82,6 @@ CardHorizontalImage.defaultProps = {
     cardLinkColor: "text-secondary-500",
     cardBg: 'bg-white',
     imgBd: 'border-primary-500',
-    children: 'Button',
     onClick: undefined,
 };
 CardAdjustingImage.defaultProps = {
@@ -99,7 +97,6 @@ CardAdjustingImage.defaultProps = {
     cardLinkColor: "text-secondary-500",
     cardBg: 'bg-white',
     imgBd: 'border-primary-500',
-    children: 'Button',
     onClick: undefined,
 };
 

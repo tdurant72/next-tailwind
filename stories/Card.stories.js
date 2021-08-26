@@ -78,24 +78,24 @@ export default {
 
         },
     },
-    parameters: {
-        docs: {
-            source: {
-                code:
-                    `<CardPlayfull
-        cardBg="bg-neutral-50"
-        headerColor="text-primary-800"
-        cardTxtColor="text-neutral-800"
-        imgSrc="https://cdn.vuetifyjs.com/images/carousel/sky.jpg"
-        imgAlt="sky image"
-        cardHeader="Design Tools"
-        cardTxt="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        cardLinkTxt="Jane Doe"
-        cardLink="https://github.com/"
-    />`,
-            }
-        }
-    }
+    // parameters: {
+    //     docs: {
+    //         source: {
+    //             code:
+    //                 `<CardPlayfull
+    //     cardBg="bg-neutral-50"
+    //     headerColor="text-primary-800"
+    //     cardTxtColor="text-neutral-800"
+    //     imgSrc="https://cdn.vuetifyjs.com/images/carousel/sky.jpg"
+    //     imgAlt="sky image"
+    //     cardHeader="Design Tools"
+    //     cardTxt="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    //     cardLinkTxt="Jane Doe"
+    //     cardLink="https://github.com/"
+    // />`,
+    //         }
+    //     }
+    // }
 };
 
 const Template = (args) => <CardPlayfull {...args}
